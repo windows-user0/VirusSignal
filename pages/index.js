@@ -81,7 +81,10 @@ export default () => (
               <Contagious />
             </div>
           </div>
-          <div> Possibly Infectious</div>
+          <div className="text-2xl lg:text-3xl font-black">
+            {" "}
+            Possibly Infectious
+          </div>
         </a>
         <a
           href="imm"
@@ -92,7 +95,10 @@ export default () => (
               <Immuno />
             </div>
           </div>
-          <div> Immuno - compromised</div>
+          <div className="text-2xl lg:text-3xl font-black">
+            {" "}
+            Immuno - compromised
+          </div>
         </a>
         <a
           href="/ok"
@@ -103,7 +109,7 @@ export default () => (
               <Recovered />
             </div>
           </div>
-          <div> Recovered</div>
+          <div className="text-2xl lg:text-3xl font-black"> Recovered</div>
         </a>
       </div>
     </div>
