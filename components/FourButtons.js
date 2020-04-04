@@ -1,11 +1,11 @@
-export default props => {
+export default (props) => {
   let link;
   if (props.immuno) link = "immuno";
   if (props.recovered) link = "recovered";
   if (props.contagious) link = "contagious";
 
   return (
-    <div className="flex-col lg:flex-row  text-white  flex  items-center capitalize font-bold">
+    <div className="flex-col lg:flex-row  text-white  flex  items-center capitalize font-bold bg-black h-full">
       <a
         href="./edu"
         className="px-2  mx-2 py-5 bg-gray-600 rounded  w-1/2 mb-1"
@@ -22,7 +22,7 @@ export default props => {
         href="https://store.virussignal.com"
         className="px-2 mx-2 py-5 bg-orange-600 rounded  w-1/2 mb-1"
       >
-        Get signs, clothing etc.
+        Get premade signs, clothing ...
       </a>
     </div>
   );
