@@ -2,6 +2,7 @@ import "../styles/index.css";
 import Immuno from "../components/Immuno";
 import FourButtons from "../components/FourButtons";
 import Recommendations from "../components/Recommendations";
+import BackButton from ".././components/BackButton";
 
 const recommendations = [
   {
@@ -25,7 +26,8 @@ const recommendations = [
 
 export default () => (
   <>
-    <div className="flex flex-col justify-center items-center text-center pt-2 lg:pt-10">
+    <BackButton />
+    <div className="flex flex-col justify-center items-center text-center pt-10">
       <div className="bg-immunoblue p-10 rounded mb-5 text-white">
         {" "}
         <Immuno />
@@ -36,6 +38,6 @@ export default () => (
       </div>
     </div>
     <Recommendations recommendations={recommendations} />
-    <FourButtons />
+    <FourButtons immuno />
   </>
 );

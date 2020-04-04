@@ -69,7 +69,7 @@ export default () => (
         </div>
         <div className="w-full lg:w-1/5 ">
           <a
-            href="/imm"
+            href="/ok"
             className="mr-5 w-full rounded shadow hover:bg-blue-600 active:bg-blue-900 bg-blue-800 p-5 uppercase w-1/3 flex justify-center  items-center"
           >
             learn more

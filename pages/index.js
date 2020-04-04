@@ -10,7 +10,7 @@ export default () => (
       style={{ backgroundColor: "#000" }}
     >
       <div className="pb-20 px-10">
-        <h1 className=" text-6xl font-black">Social Signaling works</h1>
+        <h1 className=" text-6xl font-black">Social Signaling Works</h1>
         <p className=" text-5xl text-gray-100">
           save yours and other peoples lives
         </p>
@@ -68,25 +68,25 @@ export default () => (
     </div>
     <Edu />
     <div className="flex flex-col justify-center content-center items-center w-full px-10 lg:px-20">
-      <div className="text-5xl pt-20 pb-10">How is this saving lives?</div>
+      <div className="text-5xl pt-32 pb-10">How is this saving lives?</div>
       <div style={{ maxWidth: "75ch" }}>
         Social distancing is very effective and only way to beat pandemics of
-        outbreaks. But some peoples situation require greater awarness. This is
+        outbreaks. But some peoples situation require greater awareness. This is
         where agreed upon social signals come in.
       </div>
       <div className="text-5xl pt-20 pb-10">Do I need to buy anything?</div>
       <div style={{ maxWidth: "75ch" }}>
         No. Take care of yourself and your family first. This set of signs was
         created to be easily drawn by anyone. Check the drawing guides here>>.
-        The kit store is just for convinience. This symbols are open source and
-        free, you can use them as you with evern commercially.
+        The kit store is just for convenience. This symbols are open source and
+        free, you can use them as you with even commercially.
       </div>
       <div className="text-5xl pt-20 pb-10">How can I help? </div>
       <div style={{ maxWidth: "75ch" }}>
         This is a open sourced project. Help translate and improve this website
         on github. If you don't know how to do that, spread the word everywhere.
-        Spreading the word is the most important
-      </div>{" "}
+        Spreading the word is the most important.
+      </div>
     </div>
   </>
 );
