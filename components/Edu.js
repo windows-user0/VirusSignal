@@ -26,7 +26,7 @@ export default () => (
           {" "}
           <a
             href="/inf"
-            className=" mr-5 w-full p-5 rounded shadow hover:bg-blue-600 active:bg-blue-900 bg-blue-800  uppercase w-1/3 flex justify-center  items-center"
+            className=" mr-5 w-full p-5 rounded shadow border-blue-500 border-2 text-lg lg:text-xl font-bold text-blue-500  uppercase w-1/3 flex justify-center  items-center"
           >
             learn more
           </a>{" "}
@@ -48,7 +48,7 @@ export default () => (
         <div className="w-full lg:w-1/5">
           <a
             href="/imm"
-            className="mr-5 w-full rounded shadow hover:bg-blue-600 active:bg-blue-900 bg-blue-800 p-5 uppercase w-1/3 flex justify-center  items-center"
+            className=" mr-5 w-full p-5 rounded shadow border-blue-500 border-2 text-lg lg:text-xl font-bold text-blue-500  uppercase w-1/3 flex justify-center  items-center"
           >
             learn more
           </a>
@@ -70,7 +70,7 @@ export default () => (
         <div className="w-full lg:w-1/5 ">
           <a
             href="/ok"
-            className="mr-5 w-full rounded shadow hover:bg-blue-600 active:bg-blue-900 bg-blue-800 p-5 uppercase w-1/3 flex justify-center  items-center"
+            className=" mr-5 w-full p-5 rounded shadow border-blue-500 border-2 text-lg lg:text-xl font-bold text-blue-500  uppercase w-1/3 flex justify-center  items-center"
           >
             learn more
           </a>
